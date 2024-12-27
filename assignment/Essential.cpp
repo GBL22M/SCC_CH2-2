@@ -47,4 +47,9 @@ int main()
 	{
 		a->MakeSound();
 	}
+
+	for (auto a : animal)
+	{
+		delete a;
+	}
 }

@@ -18,5 +18,8 @@
     <ClCompile Include="Essential.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Challenge.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
