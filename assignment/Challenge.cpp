@@ -20,7 +20,6 @@ public:
 	~Dog()
 	{
 		cout << "dog die\n";
-		//delete this
 	}
 };
 
@@ -95,6 +94,7 @@ Animal* CreateRandomAnimal()
 	int randomNum = rand() % 3;
 	
  	Animal* animal = nullptr;
+
 	if (randomNum == 0)
 	{
 		animal = new Dog;
