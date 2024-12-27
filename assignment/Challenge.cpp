@@ -20,7 +20,7 @@ public:
 	~Dog()
 	{
 		cout << "dog die\n";
-		//delete this;
+		//delete this
 	}
 };
 
@@ -34,7 +34,6 @@ public:
 	~Cat()
 	{
 		cout << "Cat die\n";
-		//delete this;
 	}
 };
 
@@ -48,7 +47,6 @@ public:
 	~Cow()
 	{
 		cout << "Cow die\n";
-		//delete this;
 	}
 };
 
