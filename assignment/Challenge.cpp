@@ -68,6 +68,8 @@ public:
 			delete animals[i];
 		}
 		animalCount = 0;
+
+		_CrtDumpMemoryLeaks();
 	}
 
 	void AddAnimal(Animal* animal)
@@ -134,6 +136,5 @@ int main()
 	}	
 
 	zoo.PerformActions();
-
-	cout << "\n동물원 폐장\n";
+	cout << "\n동물원 폐장\n";	
 }

@@ -42,7 +42,6 @@ int main()
 	animal[0] = new Dog;
 	animal[1] = new Cat;
 	animal[2] = new Cow;
-
 	for (auto a : animal)
 	{
 		a->MakeSound();
@@ -52,4 +51,7 @@ int main()
 	{
 		delete a;
 	}
+
+
+	_CrtDumpMemoryLeaks();
 }
